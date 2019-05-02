@@ -164,7 +164,7 @@ You can send us your feedback through e-mail on the following e-mail id:<br />
         <p>
 		<div class="row">
 		<div class="col-md-4">
-		 <img src="image/CAM00121.jpg" width=100 height=100 alt="Sunny Prakash Tiwari" class="img-rounded">
+		 <img src="https://images.static-collegedunia.com/public/college_data/images/logos/col28215.png" width=100 height=100 alt="NIET" class="img-rounded">
 		 </div>
 		 <div class="col-md-5">
 		<a href="#" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">NIET Students</a>

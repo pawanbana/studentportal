@@ -14,7 +14,7 @@ do following step
 create db attendance and import file attendance.sql from attendance folder.
 create db notes and import file from notesharing/db/  named as notes.sql.
 create db project and import file from exam/ named as project.sql.
-create db portal and import file from aboutplacement as portal.sql.
+create db noticeboard and run query as given in readme file.
 
 
 

@@ -1,0 +1,65 @@
+﻿/* v2 */
+@font-face {
+    font-family: 'Geomanist Book';
+    src: url(fonts/geomanist/hinted-Geomanist-Book.eot);
+    src: url(fonts/geomanist/hinted-Geomanist-Book.eot?#iefix) format('embedded-opentype'),url(../fonts/geomanist/hinted-Geomanist-Book.woff2) format('woff2'),url(../fonts/geomanist/hinted-Geomanist-Book.woff) format('woff'),url(../fonts/geomanist/hinted-Geomanist-Book.ttf) format('truetype'),url(../fonts/geomanist/hinted-Geomanist-Book.svg#Geomanist-Book) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+body {
+    padding-bottom: 20px;
+    background-color: rgb(98, 41, 145);
+    color: #FFF;
+    font-size: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.list-group-item {
+    color: black
+}
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.backhome {
+    display: block;
+    width: 115px;
+    height: 30px;
+    background: red;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    color:black;
+    font-weight: bold;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .body-content {
+        padding: 0;
+    }
+}
+
+/* v2 */
+
+.jumbotron {
+    height: 150px;
+    font-family: 'Geomanist Book';
+    background-color: black;
+}
+
+h1, h2 {
+    font-family: 'Geomanist Book';
+    text-align: center;
+}
+

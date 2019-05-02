@@ -22,8 +22,36 @@
  </head>
  <body>
  
+ <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+       <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="http://localhost:3201/"></span>NIET</a>
+        
+       </div>
+       <div class="collapse navbar-collapse" id="bs-nav-demo">
+       <div class="nav navbar-nav">
+       <li><a href="https://pure-atoll-27749.herokuapp.com/">CHAT ROOM</a></li>
+       <li><a href="http://localhost/exam/index.php">EXAM</a></li>
+       <li><a href="http://localhost/attendance/">ATTENDANCE</a></li>
+       <li><a href="http://localhost:8080/placement">PLACEMENT</a></li>
+       <li><a href="http://localhost/notesharing/index.php">NOTES</a></li>
+       <li><a href="http://localhost:8080">ACTIVITIES/FEST</a></li>
+       <li> <a href="student.php"></a></li>
+      
+ 
+       </div>
+       </div>
+     </div>
+     </div>
+   </nav>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -32,38 +60,29 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Online Attendance</a>
+          <a class="navbar-brand" href="index.php">NIET</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="http://localhost:3201/">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li> <a href="student.php">Student Dashboard</a></li>
+
           
           </ul>
         </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-  <div class="container">
-    <h2>For Students</h2>
-    <h4>Click here for <a href="student.php">Student Dashboard</a></h4>
-    <hr>
-    <h2>For Faculty</h2>
+      <!-- </div>
+    </nav> --> -->
+  <div class="container" style= "margin-top:30px;">
+  
+    <h2>Teahers</h2>
     <div class="alert alert-warning hidden">
       <span></span>
       <button type="button" class="close" onclick="$('.alert').addClass('hidden');">&times;</button>
     </div>
-    <table class="table table-bordered table-striped">
-      <thead>
-        <tr>
-          <th>Login</th>
-          <th>Sign Up</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <form id="login">
+    <div>
+    <div class= "col-md-5">
+    <div class ="row">
+    <form id="login">
               <div class="form-group">
                 <label>Email ID</label>
                 <input class="form-control" placeholder="Email" type="email" name="email">
@@ -73,10 +92,17 @@
                 <input class="form-control" placeholder="Password" type="password" name="password">
               </div>
               <button class="btn btn-primary pull-right">Login</button>
-            </form>
-          </td>
-          <td>
-            <form id="signup">
+            </form></div>
+         <div class ="row"
+         style="margin-top:100px;">
+         <h1>
+         <a href="student.php">STUDENT DASHBOARD</a></h1>
+            </div>
+   
+    </div>
+    <div class ="col-md-2"></div>
+    <div class ="col-md-5">
+    <form id="signup">
               <div class="form-group">
                 <label>Name</label>
                 <input class="form-control" placeholder="Name" type="text" name="name">
@@ -100,16 +126,11 @@
               </div>
               <button class="btn btn-primary pull-right">Sign Up</button>
             </form>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    </div>
+    </div>
   </div>
      <!-- FOOTER -->
-      <footer style="background:; height:120%;">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy;       2019 NIET, Inc. &middot;  developed by  <a href="#">NIET students</a><a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+
 
     </div><!-- /.container -->
 
